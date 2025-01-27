@@ -1,9 +1,9 @@
 import express from "express";
 import {ObjectivesService} from "./services/objectives.service.js";
 import {ObjectivesController} from "./controllers/objectives.controller.js";
+import {PORT} from "./constants.js";
 
 const app = express();
-const PORT = 3000;
 
 const objectivesService = new ObjectivesService();
 const objectivesController = new ObjectivesController(objectivesService);
