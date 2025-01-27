@@ -1,0 +1,17 @@
+{
+  "objectives": [
+    {
+      "id": "34b4",
+      "title": "Hire a full stack team",
+      "keyResults": [
+        {
+          "title": "frontend team",
+          "initialValue": 0,
+          "currentValue": 5,
+          "targetValue": 10,
+          "metrics": "Number"
+        }
+      ]
+    }
+  ]
+}
